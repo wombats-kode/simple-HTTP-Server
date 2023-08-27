@@ -1,4 +1,4 @@
-# simple-HTTP-Server
+# simple-HTTP-server
 
 A simple HTTP/HTTPS fileserver written in GO, designed as a quick and simple way to share files.
 
