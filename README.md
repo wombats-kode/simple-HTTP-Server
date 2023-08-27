@@ -14,7 +14,7 @@ By default, the app will share Any files/folder from a relative child folder nam
 ``serve`` - will start an HTTP server on 0.0.0.0 and shares all file/folder in the folder 'static' on  port 8080.  Accessible locally as http://<local_IP>:8080
 
 ### Example2 - Secure Server
-``serve -p=443 -url=testing -dir=/temp -secure -cert=cert.pem -key=mykey.key - will start an HTTPS service using SSL key/cert stored in the local directory, sharing the contents of the root directory '/temp' at the url "https://<local_IP>/testing/"
+``serve`` -p=443 -url=testing -dir=/temp -secure -cert=cert.pem -key=mykey.key - will start an HTTPS service using SSL key/cert stored in the local directory, sharing the contents of the root directory '/temp' at the url "https://<local_IP>/testing/"
 
 
 
